@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Sat Dec 10 08:40:44 GMT 2022","Sat Dec 10 08:40:54 GMT 2022","10398","","qa.guru.allure.SelenideTest","","qa.guru.allure.SelenideTest","testIssueSearch","testIssueSearch()",""
+"passed","Sat Dec 10 08:40:54 GMT 2022","Sat Dec 10 08:40:57 GMT 2022","2470","","qa.guru.allure.StepsTest","","qa.guru.allure.StepsTest","testAnnotatedStep","testAnnotatedStep()",""
+"passed","Sat Dec 10 08:40:57 GMT 2022","Sat Dec 10 08:40:59 GMT 2022","2646","","qa.guru.allure.StepsTest","","qa.guru.allure.StepsTest","testLambdaStep","testLambdaStep()",""
