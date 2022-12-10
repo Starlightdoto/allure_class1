@@ -14,8 +14,8 @@ import static org.openqa.selenium.By.linkText;
 
 public class StepsTest {
 
-    private static final String REPOSITORY = "eroshenkoam/allure-example";
-    private static final String ISSUE = "#80";
+    private static final String REPOSITORY = "Starlightdoto/allure_class1";
+    private static final String ISSUE = "NewSuperIssue";
 
     @Test
     public void testLambdaStep() {

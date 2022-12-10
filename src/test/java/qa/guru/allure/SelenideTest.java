@@ -18,9 +18,9 @@ public class SelenideTest {
         SelenideLogger.addListener("allure", new AllureSelenide());
 
         open("https://github.com");
-        $(".header-search-input").setValue("eroshenkoam/allure-example").pressEnter();
-        $(linkText("eroshenkoam/allure-example")).click();
+        $(".header-search-input").setValue("Starlightdoto/allure_class1").pressEnter();
+        $(linkText("Starlightdoto/allure_class1")).click();
         $("#issues-tab").click();
-        $(withText("#801")).should(exist);
+        $(withText("NewSuperIssue")).should(exist);
     }
 }
