@@ -40,7 +40,17 @@ public class StepsTest {
         step("Assert that issue" + " " + ISSUE + " " + "exists", () -> {
             $(withText(ISSUE)).should(exist);
         });
+    }
 
+    @Test
+    public void testAnnotatedStep() {
+        SelenideLogger.addListener("allure", new AllureSelenide());
+        WebSteps steps = new WebSteps();
 
+        steps.openMainPage();
+        steps.searchForRepository(REPOSITORY);
+        steps.openRepository(REPOSITORY);
+        steps.openIssuesTab();
+        steps.assertIssueExists(ISSUE);
     }
 }
