@@ -30,9 +30,6 @@ dependencies {
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
     implementation 'com.codeborne:selenide:6.10.1'
     implementation 'io.qameta.allure:allure-selenide:2.20.1'
-
-
-
 }
 
 test {
